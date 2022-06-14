@@ -142,38 +142,34 @@ uint8_t bitInx = 7;
 	// pull down for at least 18 ms for a smooth and nice wake up 
 	gpio_set_level( DHTgpio, 0 );
 	ets_delay_us( 18000 );			//3000
-
 	// change to input mode with pullup
+	gpio_set_level( DHTgpio, 1 );
 	gpio_set_direction( DHTgpio, GPIO_MODE_INPUT );		
-	//wait for low
-  	uSec = getSignalLevel( 160, 1 );//85
-	// == DHT will keep the line low for 80 us and then high for 80us ====
-	printf("\n");
-	uSec = getSignalLevel( 160, 0 );//85
+	//wait for low  	
+	uSec = getSignalLevel( 80, 0 );//85
 	//	ESP_LOGI( TAG, "Response = %d", uSec );
-
 	if( uSec<0 ) return DHT_TIMEOUT_ERROR; 
 
 	// -- 80us up ------------------------
-
-	uSec = getSignalLevel( 160, 1 );//85
+//	printf("..\n");
+	uSec = getSignalLevel( 80, 1 );//85
 //	ESP_LOGI( TAG, "Response = %d", uSec );
 
 	if( uSec<0 ) return DHT_TIMEOUT_ERROR;
 
 	// == No errors, read the 40 data bits ================
-  
-	for( int k = 0; k < 40; k++ ) {
+  //	printf("...\n");
+	for( int k = 0; k < 40; k++ ) {//40
 
 		// -- starts new data transmission with >50us low signal
 
 		uSec = getSignalLevel( 50, 0 );//55
-		if( uSec<0 ) return DHT_TIMEOUT_ERROR;
+		if( uSec<0 ) {return DHT_TIMEOUT_ERROR;}
 
 		// -- check to see if after >70us rx data is a 0 or a 1
 
-		uSec = getSignalLevel(75 , 1 );//75
-		if( uSec<0 ) return DHT_TIMEOUT_ERROR;
+		uSec = getSignalLevel(1000 , 1 );//75
+		if( uSec<0 ) {return DHT_TIMEOUT_ERROR;}
 
 		// add the current read to the output data
 		// since all dhtData array where set to 0 at the start, 
@@ -206,7 +202,9 @@ uint8_t bitInx = 7;
 	// Checksum is the sum of Data 8 bits masked out 0xFF
 	
 	if (dhtData[4] == ((dhtData[0] + dhtData[1] + dhtData[2] + dhtData[3]) & 0xFF)) 
-		return DHT_OK;
+		{printf("t: %f\n",temperature/1.0);
+		printf("h: %f\n",humidity/1.0);
+		return DHT_OK;}
 
 	else 
 		return DHT_CHECKSUM_ERROR;

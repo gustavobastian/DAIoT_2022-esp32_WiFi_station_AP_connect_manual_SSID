@@ -13,12 +13,12 @@ const char *TAG = "sensor";
 float localTemperature;
 float localHumidity;
 
-int dispositivoId =2;
+int dispositivoId = 2;
 int Luz1=0;
 int Luz2=0;
 
 char nombre[25]="IOT_DEVICE";   
-char ubicacion[25]="Casa de Bastian";   
+char ubicacion[25]="Casa";   
 
 
 
@@ -122,8 +122,8 @@ void processData(char *topic,char *message){
     {
         //we have a parameter json
         printf("Checking device name \"%s\"\n", name->valuestring);
-        sprintf(nombre,"%s",name->valuestring);   
-        sprintf(ubicacion,"%s",place->valuestring);
+        snprintf(nombre,24,"%s",name->valuestring);   
+        snprintf(ubicacion,24,"%s",place->valuestring);
     }
     else{
         //change light values

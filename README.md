@@ -1,53 +1,89 @@
-# Wi-Fi Station Example (conexión WiFi en modo estación a un AP)
+# Sensor node for IOT
+## Descripcion general
 
-Configurar los datos de la red WiFi en app_main.c con los siguientes defines que se
-encuentran al inicio del archivo.
+Este pequeño proyecto contiene el firmware para un nodo con:
+* sensado de temperatura 
+* humedad 
+* 2 leds de activación remota 
 
-#define EXAMPLE_ESP_WIFI_SSID      "your_SSID"
-#define EXAMPLE_ESP_WIFI_PASS      "your_SSID_PASSWORD"
-#define EXAMPLE_ESP_MAXIMUM_RETRY  10
+El nodo utiliza MQTT con certificados TLS y el dispositivo sensor es el módulo DTH11.
+
+El nodo reporta las mediciones mediante una tarea llamada"sensor_task()" cada 30 segundos. \
+La tarea "comm_task()" chequea si se recibió un mensaje desde otro dispositivo. Esto lo realiza comprobando el estado del flag "flagProcessMessage" activado desde el mqtt_event_handler definido en "mqtt_functions.c".
 
 
-### Salida por consola
+El nodo sensor genera 3 tópicos:
+![Topicos](Doc/sensor1.png)
 
-I (629) wifi station: ESP_WIFI_MODE_STA
-I (649) wifi:wifi driver task: 3ffc0830, prio:23, stack:6656, core=0
-I (649) system_api: Base MAC address is not set
-I (649) system_api: read default base MAC address from EFUSE
-I (679) wifi:wifi firmware version: 7679c42
-I (679) wifi:wifi certification version: v7.0
-I (679) wifi:config NVS flash: enabled
-I (679) wifi:config nano formating: disabled
-I (679) wifi:Init data frame dynamic rx buffer num: 32
-I (689) wifi:Init management frame dynamic rx buffer num: 32
-I (689) wifi:Init management short buffer num: 32
-I (699) wifi:Init dynamic tx buffer num: 32
-I (699) wifi:Init static rx buffer size: 1600
-I (699) wifi:Init static rx buffer num: 10
-I (709) wifi:Init dynamic rx buffer num: 32
-I (709) wifi_init: rx ba win: 6
-I (709) wifi_init: tcpip mbox: 32
-I (719) wifi_init: udp mbox: 6
-I (719) wifi_init: tcp mbox: 6
-I (729) wifi_init: tcp tx win: 5744
-I (729) wifi_init: tcp rx win: 5744
-I (729) wifi_init: tcp mss: 1440
-I (739) wifi_init: WiFi IRAM OP enabled
-I (739) wifi_init: WiFi RX IRAM OP enabled
-I (749) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07
-I (859) wifi:mode : sta (3c:71:bf:aa:65:5c)
-I (859) wifi:enable tsf
-I (859) wifi station: wifi_init_sta finished.
-I (879) wifi:new:<3,1>, old:<1,0>, ap:<255,255>, sta:<3,1>, prof:1
-I (879) wifi:state: init -> auth (b0)
-I (909) wifi:state: auth -> assoc (0)
-I (919) wifi:state: assoc -> run (10)
-I (949) wifi:connected with Deconet, aid = 6, channel 3, 40U, bssid = da:06:c3:81:21:d0
-I (949) wifi:security: WPA2-PSK, phy: bgn, rssi: -46
-I (959) wifi:pm start, type: 1
+* sensor: topico en el cual el nodo reporta los valores de temperatura y humedad en formato JSON.\
+{\
+	"dispositivoId":	2,\
+	"nombre":	"IOT_DEVICE",\
+	"ubicacion":	"Casa",\
+	"luz1":	0,\
+	"luz2":	0,\
+	"temperatura":	22,\
+	"humedad":	55\
+}
+* status: Topico en el cual el nodo reporta el status:\
+{"status":"Online"}\
+\
+En este tópico se reporta el ***Last Will and Testament***, que se encuentra configurado para activarse despues de 60 segundos sin reporte.
 
-I (979) wifi:AP's beacon interval = 102400 us, DTIM period = 1
-W (989) wifi:<ba-add>idx:0 (ifx:0, da:06:c3:81:21:d0), tid:0, ssn:0, winSize:64
-I (1629) esp_netif_handlers: sta ip: 192.168.68.59, mask: 255.255.252.0, gw: 192.168.68.1
-I (1629) wifi station: got ip:192.168.68.59
-I (1629) wifi station: connected to ap SSID:Deconet password:0103371183xx
+* parametros: en este tópico se puede actualizar los parametros del sensor, o bien encender y apagar los leds. Los Json que se deben enviar son: 
+    * Para actualizar leds: \
+        {"Led1":1,"Led2":0}
+    * Para actualizar nombre u ubicacion(tanto nombre como ubicacion deben poseer como maximo 24 caracteres):    
+    {"nombre":"mi lindo nodo sensor","ubicacion":"casa"}
+
+
+
+
+## Configuracion en detalle del nodo
+
+Configurar los datos de la red WiFi en wifi_config.h con los siguientes defines que se encuentran al inicio del archivo.
+
+`#define EXAMPLE_ESP_WIFI_SSID      "your_SSID"`\
+`#define EXAMPLE_ESP_WIFI_PASS      "your_SSID_PASSWORD"`\
+`#define EXAMPLE_ESP_MAXIMUM_RETRY  10`
+
+
+Para configurar el la ubicación del broker mosquitto, editar mqtt_functions.h:
+
+`#define BROKER_URI "mqtts://192.168.1.100:8883"`
+
+Para configurar parametros por default del sensor, editar sensor_config.h:
+
+`int dispositivoId = 2;`\
+`int Luz1=0;`\
+`int Luz2=0;`
+
+`char nombre[25]="IOT_DEVICE";`   
+`char ubicacion[25]="Casa";`   
+
+Con excepcion del dispositivoId, todos los demas valores pueden ser actualizados remotamente.
+
+
+## Salida por consola
+\
+En estado normal de trabajo presenta la temperatura y humedad obtenidad, asi como los errores que pueden surgir en la lectura del dispositivo.
+
+`t: 22.000000`\
+`h: 55.000000`
+
+En caso de recibir un mensaje de configuracion se imprime la información recibida:\
+`I (131208) sensor: MQTT_EVENT_DATA`\
+`processing incoming`\
+`{"nombre":"mi lindo nodo sensor","ubicacion":"casa"}`\
+`:`\
+`Checking device name "mi lindo nodo sensor"`\
+
+En caso de recibir un mensaje de activación de leds se imprime la información recibida.\
+`I (355668) sensor: MQTT_EVENT_DATA`\
+`processing incoming`\
+`{"Led1":1,"Led2":0}`\
+`:`
+
+## Trabajo para mejorar
+* No utilizar credenciales fijas
+* Un modo mejor de generar Id de dispositivos

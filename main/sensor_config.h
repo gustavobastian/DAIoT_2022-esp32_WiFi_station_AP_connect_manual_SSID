@@ -5,12 +5,6 @@
 #include "driver/gpio.h"
 
 
-/*
-JSON model
-{ "dispositivoId": "0", "nombre": "Daiot_Web", 
-"ubicacion": "WebClient", "luz1": 0,
- "luz2": 0, "temperatura": 100, "humedad": 80 }
-*/
 /*TAG*/
 extern const char *TAG;
 

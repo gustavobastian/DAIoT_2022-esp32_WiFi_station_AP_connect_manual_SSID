@@ -51,7 +51,7 @@ static void sensor_task(void* arg)
         generateJson(buff,dispositivoId,nombre,ubicacion,Luz1,Luz2,getTemperature(),getHumidity());
         esp_mqtt_client_publish(client, topicDataSensor, buff, 0, 0, 0);}
         
-        vTaskDelay(10000 / portTICK_RATE_MS);
+        vTaskDelay(30000 / portTICK_RATE_MS);
         //vTaskDelay(2500 / portTICK_RATE_MS);
         }
 }
@@ -67,7 +67,7 @@ static void comm_task(void* arg)
         {processData(recTopic,recBuff);
             flagProcessMessage=0;
         }
-        vTaskDelay(1000 / portTICK_RATE_MS);
+        vTaskDelay(5000 / portTICK_RATE_MS);
     }
 }
 
@@ -89,10 +89,10 @@ void app_main(void)
     }
     ESP_ERROR_CHECK(ret);
 
-    ESP_LOGI(TAG, "ESP_WIFI_MODE_STA");
-    ret2 = esp_efuse_mac_get_default(base_mac_addr);
-    printf( "wifi_Mac_address:%d %d\n", base_mac_addr[0],base_mac_addr[1]);
-    dispositivoId=base_mac_addr[1]*256+base_mac_addr[0];
+    //ESP_LOGI(TAG, "ESP_WIFI_MODE_STA");
+    //ret2 = esp_efuse_mac_get_default(base_mac_addr);
+    //printf( "wifi_Mac_address:%d %d\n", base_mac_addr[0],base_mac_addr[1]);
+    //dispositivoId=base_mac_addr[1]*256+base_mac_addr[0];
     initSensor();    
 
     wifi_init_sta(); // 5 seg delay
