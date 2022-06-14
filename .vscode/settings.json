@@ -2,5 +2,17 @@
   "C_Cpp.intelliSenseEngine": "Tag Parser",
   "idf.flashType": "UART",
   "idf.port": "/dev/ttyUSB0",
-  "idf.adapterTargetName": "esp32"
+  "idf.adapterTargetName": "esp32",
+  "idf.openOcdConfigs": [
+    "interface/ftdi/esp32_devkitj_v1.cfg",
+    "target/esp32.cfg"
+  ],
+  "cmake.configureOnOpen": false,
+  "files.associations": {
+    "system_error": "c",
+    "*.ipp": "c",
+    "*.inc": "c",
+    "sensor_config.h": "c",
+    "mqtt_functions.h": "c"
+  }
 }

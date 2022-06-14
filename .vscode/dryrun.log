@@ -1,0 +1,359 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2'
+ 
+Python requirements from /home/gustavo/esp/esp-idf/requirements.txt are satisfied.
+ 
+GENCONFIG
+ 
+make: xtensa-esp32-elf-gcc: Command not found
+
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/xtensa'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/xtensa'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/wpa_supplicant'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/wpa_supplicant'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/wifi_provisioning'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/wifi_provisioning'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/wear_levelling'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/wear_levelling'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/vfs'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/vfs'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/unity'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/unity'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/ulp'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/ulp'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/tcpip_adapter'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/tcpip_adapter'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/tcp_transport'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/tcp_transport'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/spiffs'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/spiffs'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/spi_flash'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/spi_flash'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/soc'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/soc'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/sdmmc'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/sdmmc'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/pthread'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/pthread'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/protocomm'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/protocomm'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/protobuf-c'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/protobuf-c'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/perfmon'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/perfmon'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/partition_table'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/partition_table'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/openthread'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/openthread'
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/openssl'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/openssl'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/nvs_flash'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/nvs_flash'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/nghttp'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/nghttp'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/newlib'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/newlib'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/mqtt'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/mqtt'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/mdns'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/mdns'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/mbedtls'
+ 
+sh: 0: getcwd() failed: No such file or directory
+
+sh: 0: getcwd() failed: No such file or directory
+/bin/sh: 1: cannot create component_project_vars.mk: Directory nonexistent
+make[1]: *** [/home/gustavo/esp/esp-idf/make/component_wrapper.mk:196: component_project_vars.mk] Error 2
+
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/mbedtls'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/main'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/main'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/lwip'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/lwip'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/log'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/log'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/libsodium'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/libsodium'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/json'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/json'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/jsmn'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/jsmn'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/idf_test'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/idf_test'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/heap'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/heap'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/hal'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/hal'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/freertos'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/freertos'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/freemodbus'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/freemodbus'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/fatfs'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/fatfs'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/expat'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/expat'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esptool_py'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esptool_py'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/espcoredump'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/espcoredump'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_wifi'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_wifi'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_websocket_client'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_websocket_client'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_timer'
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_timer'
+ 
+/home/gustavo/esp/esp-idf/components/esp_timer/component.mk:21: *** esp_timer is only supported by the Make build system for esp32 chip. For other chips, use the Cmake build system.  Stop.
+
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_system'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_system'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_serial_slave_link'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_serial_slave_link'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_rom'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_rom'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_ringbuf'
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_ringbuf'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_pm'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_pm'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_phy'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_phy'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_netif'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_netif'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_local_ctrl'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_local_ctrl'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_lcd'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_lcd'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_ipc'
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_ipc'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_hw_support'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_hw_support'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_https_server'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_https_server'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_https_ota'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_https_ota'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_http_server'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_http_server'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_http_client'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_http_client'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_hid'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_hid'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_gdbstub'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_gdbstub'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_event'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_event'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_eth'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_eth'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_common'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_common'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_adc_cal'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp_adc_cal'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp32s3'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp32s3'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp32s2'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp32s2'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp32h2'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp32h2'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp32c3'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp32c3'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp32'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp32'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp-tls'
+ 
+/home/gustavo/esp/esp-idf/components/esp-tls/component.mk:8: warning: undefined variable 'CONFIG_ESP_TLS_USING_MBEDTLS'
+/home/gustavo/esp/esp-idf/components/esp-tls/component.mk:12: warning: undefined variable 'CONFIG_ESP_TLS_USING_WOLFSSL'
+
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/esp-tls'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/efuse'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/efuse'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/driver'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/driver'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/cxx'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/cxx'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/console'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/console'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/coap'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/coap'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/cmock'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/cmock'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/cbor'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/cbor'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/bt'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/bt'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/bootloader_support'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/bootloader_support'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/bootloader'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/bootloader'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/asio'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/asio'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/app_update'
+ 
+App "wifi_station" version: ae3ba3c-dirty
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/app_update'
+ 
+make[1]: Entering directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/app_trace'
+ 
+make[1]: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/app_trace'
+ 
+/home/gustavo/esp/esp-idf/make/project.mk:281: "Config was not evaluated after the first pass of 'make'"
+
+python /home/gustavo/esp/esp-idf/tools/check_python_dependencies.py
+make: Leaving directory '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2'
+ 

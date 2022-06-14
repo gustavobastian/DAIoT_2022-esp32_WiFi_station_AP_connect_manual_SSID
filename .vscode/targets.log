@@ -1,0 +1,1327 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+mconf-idf is not required on this platform
+ 
+mconf-idf is not required on this platform
+ 
+Python requirements from /home/gustavo/esp/esp-idf/requirements.txt are satisfied.
+ 
+TERM environment variable is set to "xterm-256color"
+ 
+DEFCONFIG
+ 
+MENUCONFIG
+ 
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[?1l> 
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/curses/__init__.py", line 89, in wrapper
+    cbreak()
+_curses.error: cbreak() returned ERR
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/gustavo/.local/lib/python3.8/site-packages/menuconfig.py", line 3278, in <module>
+    _main()
+  File "/home/gustavo/.local/lib/python3.8/site-packages/menuconfig.py", line 663, in _main
+    menuconfig(standard_kconfig(__doc__))
+  File "/home/gustavo/.local/lib/python3.8/site-packages/menuconfig.py", line 732, in menuconfig
+    print(curses.wrapper(_menuconfig))
+  File "/usr/lib/python3.8/curses/__init__.py", line 111, in wrapper
+    nocbreak()
+_curses.error: nocbreak() returned ERR
+
+Loaded configuration '/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/sdkconfig'
+ 
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Tue Jun 14 12:18:10 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+NVM_INC = /home/gustavo/.nvm/versions/node/v18.2.0/include/node
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2
+# makefile
+SHELL = /bin/sh
+# makefile (from '/home/gustavo/esp/esp-idf/make/project.mk', line 150)
+EXTRA_COMPONENT_DIRS = 
+# environment
+VTE_VERSION = 6003
+# makefile (from '/home/gustavo/esp/esp-idf/make/common.mk', line 25)
+V = $(VERBOSE)
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+JOURNAL_STREAM = 8:46639
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# makefile (from '/home/gustavo/esp/esp-idf/make/project.mk', line 53)
+NON_INTERACTIVE_TARGET = defconfig clean% %clean help list-components print_flash_cmd check_python_dependencies
+# makefile (from '/home/gustavo/esp/esp-idf/make/project.mk', line 227)
+TEST_COMPONENT_NAMES := 
+# makefile (from '/home/gustavo/esp/esp-idf/make/project_config.mk', line 1)
+MAKEFILE_LIST :=  Makefile /home/gustavo/esp/esp-idf/make/project.mk /home/gustavo/esp/esp-idf/make/common.mk /home/gustavo/esp/esp-idf/make/version.mk /home/gustavo/esp/esp-idf/make/project_config.mk
+# makefile (from '/home/gustavo/esp/esp-idf/make/common.mk', line 11)
+SDKCONFIG_MAKEFILE = $(abspath $(BUILD_DIR_BASE)/include/config/auto.conf)
+# automatic
+@F = $(notdir $@)
+# environment
+IM_CONFIG_PHASE = 1
+# environment
+USERNAME = gustavo
+# makefile (from '/home/gustavo/esp/esp-idf/make/project.mk', line 238)
+HOSTCC := gcc
+# environment
+MAKELEVEL := 0
+# environment
+MANDATORY_PATH = /usr/share/gconf/ubuntu.mandatory.path
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# makefile (from '/home/gustavo/esp/esp-idf/make/version.mk', line 3)
+IDF_VERSION_PATCH := 1
+# makefile (from '/home/gustavo/esp/esp-idf/make/project.mk', line 239)
+HOSTLD := ld
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus,guid=cb643004ff9bc5963a68117562a89cd9
+# makefile (from '/home/gustavo/esp/esp-idf/make/project.mk', line 155)
+COMPONENT_DIRS := /home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/components /home/gustavo/esp/esp-idf/components /home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/main
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+_ = /usr/bin/code
+# makefile (from '/home/gustavo/esp/esp-idf/make/project.mk', line 142)
+BUILD_DIR_BASE := /home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build
+# environment
+MANAGERPID = 2733
+# makefile (from '/home/gustavo/esp/esp-idf/make/project_config.mk', line 72)
+DEFAULTS_ARG := 
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+LC_NAME = es_AR.UTF-8
+# environment
+VSCODE_CWD = /home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/gustavo/.nvm/versions/node/v18.2.0/bin:/home/gustavo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# makefile (from '/home/gustavo/esp/esp-idf/make/project.mk', line 231)
+LD = ld
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+SESSION_MANAGER = local/gustavo-PC-H:@/tmp/.ICE-unix/2950,unix/gustavo-PC-H:/tmp/.ICE-unix/2950
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from '/home/gustavo/esp/esp-idf/make/project_config.mk', line 118)
+define RunMenuConf
+	mkdir -p $(BUILD_DIR_BASE)/include/config
+	cd $(BUILD_DIR_BASE); KCONFIG_AUTOHEADER=$(abspath $(BUILD_DIR_BASE)/include/sdkconfig.h) KCONFIG_CONFIG=$(SDKCONFIG) COMPONENT_KCONFIGS_SOURCE_FILE="$(COMPONENT_KCONFIGS_SOURCE_FILE)" COMPONENT_KCONFIGS_PROJBUILD_SOURCE_FILE="$(COMPONENT_KCONFIGS_PROJBUILD_SOURCE_FILE)" IDF_CMAKE=n IDF_ENV_FPGA=n $(MENUCONFIG_CMD) $(IDF_PATH)/Kconfig
+endef
+# makefile (from '/home/gustavo/esp/esp-idf/make/common.mk', line 30)
+summary := @echo
+# makefile (from '/home/gustavo/esp/esp-idf/make/common.mk', line 50)
+dequote = $(subst ",,$(1))
+# makefile (from '/home/gustavo/esp/esp-idf/make/version.mk', line 2)
+IDF_VERSION_MINOR := 4
+# makefile (from '/home/gustavo/esp/esp-idf/make/common.mk', line 91)
+uniq = $(if $1,$(firstword $1) $(call uniq,$(filter-out $(firstword $1),$1)))
+# environment
+NVM_BIN = /home/gustavo/.nvm/versions/node/v18.2.0/bin
+# makefile (from '/home/gustavo/esp/esp-idf/make/common.mk', line 99)
+stripLeadingParentDirs = $(foreach path,$(1),$(if $(subst ..,,$(path)),$(if $(filter ../%,$(path)),$(call stripLeadingParentDirs,$(patsubst ../%,%,$(path))),$(path)),.))
+# makefile (from '/home/gustavo/esp/esp-idf/make/project.mk', line 232)
+AR = ar
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+INVOCATION_ID = 833618c00e0f4a4dadffe1ce3f527d27
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# makefile (from '/home/gustavo/esp/esp-idf/make/project_config.mk', line 83)
+define RunConfGen
+	mkdir -p $(BUILD_DIR_BASE)/include/config
+ 
+	$(PYTHON) $(IDF_PATH)/tools/kconfig_new/confgen.py --kconfig $(IDF_PATH)/Kconfig --config $(SDKCONFIG) --sdkconfig-rename $(SDKCONFIG_RENAME) --env "COMPONENT_KCONFIGS=$(strip $(COMPONENT_KCONFIGS))" --env "COMPONENT_KCONFIGS_PROJBUILD=$(strip $(COMPONENT_KCONFIGS_PROJBUILD))" --env "COMPONENT_KCONFIGS_SOURCE_FILE=$(COMPONENT_KCONFIGS_SOURCE_FILE)" --env "COMPONENT_KCONFIGS_PROJBUILD_SOURCE_FILE=$(COMPONENT_KCONFIGS_PROJBUILD_SOURCE_FILE)" --env "COMPONENT_SDKCONFIG_RENAMES=$(strip $(COMPONENT_SDKCONFIG_RENAMES))" --env "IDF_CMAKE=n" --env "IDF_ENV_FPGA=n" $(DEFAULTS_ARG) --output config ${SDKCONFIG} --output makefile $(SDKCONFIG_MAKEFILE) --output header $(BUILD_DIR_BASE)/include/sdkconfig.h $1
+endef
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# makefile (from '/home/gustavo/esp/esp-idf/make/project.mk', line 216)
+TESTS_ALL = 
+# makefile (from '/home/gustavo/esp/esp-idf/make/project.mk', line 235)
+SIZE = size
+# automatic
+%F = $(notdir $%)
+# makefile (from '/home/gustavo/esp/esp-idf/make/project_config.mk', line 5)
+COMPONENT_KCONFIGS_PROJBUILD :=  /home/gustavo/esp/esp-idf/components/app_update/Kconfig.projbuild  /home/gustavo/esp/esp-idf/components/bootloader/Kconfig.projbuild                                  /home/gustavo/esp/esp-idf/components/esp_rom/Kconfig.projbuild       /home/gustavo/esp/esp-idf/components/esptool_py/Kconfig.projbuild             /home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/main/Kconfig.projbuild         /home/gustavo/esp/esp-idf/components/partition_table/Kconfig.projbuild                 
+# makefile (from '/home/gustavo/esp/esp-idf/make/common.mk', line 31)
+details := @true
+# environment
+DISPLAY = :1
+# makefile (from '/home/gustavo/esp/esp-idf/make/project.mk', line 215)
+TEST_EXCLUDE_COMPONENTS = 
+# makefile (from '/home/gustavo/esp/esp-idf/make/project_config.mk', line 21)
+KCONFIG_TOOL_DIR = $(IDF_PATH)/tools/kconfig
+# makefile (from '/home/gustavo/esp/esp-idf/make/project.mk', line 240)
+HOSTAR := ar
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2
+# default
+.LOADED := 
+# makefile (from '/home/gustavo/esp/esp-idf/make/project_config.mk', line 27)
+SDKCONFIG_RENAME = $(IDF_PATH)/sdkconfig.rename
+# environment
+SSH_AGENT_PID = 2915
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# makefile (from '/home/gustavo/esp/esp-idf/make/project_config.mk', line 61)
+PYTHON = python
+# makefile (from '/home/gustavo/esp/esp-idf/make/project.mk', line 183)
+COMPONENTS := app_trace app_update asio bootloader bootloader_support bt cbor cmock coap console cxx driver efuse esp-tls esp32 esp32c3 esp32h2 esp32s2 esp32s3 esp_adc_cal esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_ipc esp_lcd esp_local_ctrl esp_netif esp_phy esp_pm esp_ringbuf esp_rom esp_serial_slave_link esp_system esp_timer esp_websocket_client esp_wifi espcoredump esptool_py expat fatfs freemodbus freertos hal heap idf_test jsmn json libsodium log lwip main mbedtls mdns mqtt newlib nghttp nvs_flash openssl openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport tcpip_adapter ulp unity vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/gustavo
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/gustavo/.config/Code/CachedData/4af164ea3a06f701fe3e89a2bcbb421d2026b68f
+# environment
+LOGNAME = gustavo
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+NVM_CD_FLAGS = 
+# automatic
++F = $(notdir $+)
+# makefile (from '/home/gustavo/esp/esp-idf/make/project_config.mk', line 108)
+MENUCONFIG_CMD := python -m menuconfig
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# makefile (from '/home/gustavo/esp/esp-idf/make/project_config.mk', line 7)
+COMPONENT_KCONFIGS_SOURCE_FILE := /home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/kconfigs.in
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from '/home/gustavo/esp/esp-idf/make/project.mk', line 223)
+TEST_COMPONENTS_LIST := 
+# makefile (from '/home/gustavo/esp/esp-idf/make/project.mk', line 124)
+PROJECT_PATH := /home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2
+# environment
+LC_TIME = es_AR.UTF-8
+# makefile (from '/home/gustavo/esp/esp-idf/make/common.mk', line 24)
+VERBOSE = 
+# makefile (from '/home/gustavo/esp/esp-idf/make/project.mk', line 168)
+MULTI_COMPONENT_DIRS := /home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/components /home/gustavo/esp/esp-idf/components
+# environment
+COLORTERM = truecolor
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# environment
+SHLVL = 1
+# makefile (from '/home/gustavo/esp/esp-idf/make/project.mk', line 230)
+CC = gcc
+# makefile (from '/home/gustavo/esp/esp-idf/make/project.mk', line 164)
+SINGLE_COMPONENT_DIRS := /home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/main
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-65c6edf4-4254-4c63-a71f-d0e1f2a2dd34.sock
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = gustavo
+# environment
+LC_MONETARY = es_AR.UTF-8
+# makefile
+.DEFAULT_GOAL := all
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# makefile (from '/home/gustavo/esp/esp-idf/make/common.mk', line 83)
+prereq_if_explicit = $(filter $(1),$(MAKECMDGOALS))
+# makefile (from '/home/gustavo/esp/esp-idf/make/version.mk', line 1)
+IDF_VERSION_MAJOR := 4
+# makefile (from '/home/gustavo/esp/esp-idf/make/common.mk', line 47)
+SEPARATOR := "*******************************************************************************"
+# makefile (from '/home/gustavo/esp/esp-idf/make/project.mk', line 205)
+COMPONENT_PATHS :=  /home/gustavo/esp/esp-idf/components/app_trace  /home/gustavo/esp/esp-idf/components/app_update  /home/gustavo/esp/esp-idf/components/asio  /home/gustavo/esp/esp-idf/components/bootloader  /home/gustavo/esp/esp-idf/components/bootloader_support  /home/gustavo/esp/esp-idf/components/bt  /home/gustavo/esp/esp-idf/components/cbor  /home/gustavo/esp/esp-idf/components/cmock  /home/gustavo/esp/esp-idf/components/coap  /home/gustavo/esp/esp-idf/components/console  /home/gustavo/esp/esp-idf/components/cxx  /home/gustavo/esp/esp-idf/components/driver  /home/gustavo/esp/esp-idf/components/efuse  /home/gustavo/esp/esp-idf/components/esp-tls  /home/gustavo/esp/esp-idf/components/esp32  /home/gustavo/esp/esp-idf/components/esp32c3  /home/gustavo/esp/esp-idf/components/esp32h2  /home/gustavo/esp/esp-idf/components/esp32s2  /home/gustavo/esp/esp-idf/components/esp32s3  /home/gustavo/esp/esp-idf/components/esp_adc_cal  /home/gustavo/esp/esp-idf/components/esp_common  /home/gustavo/esp/esp-idf/components/esp_eth  /home/gustavo/esp/esp-idf/components/esp_event  /home/gustavo/esp/esp-idf/components/esp_gdbstub  /home/gustavo/esp/esp-idf/components/esp_hid  /home/gustavo/esp/esp-idf/components/esp_http_client  /home/gustavo/esp/esp-idf/components/esp_http_server  /home/gustavo/esp/esp-idf/components/esp_https_ota  /home/gustavo/esp/esp-idf/components/esp_https_server  /home/gustavo/esp/esp-idf/components/esp_hw_support  /home/gustavo/esp/esp-idf/components/esp_ipc  /home/gustavo/esp/esp-idf/components/esp_lcd  /home/gustavo/esp/esp-idf/components/esp_local_ctrl  /home/gustavo/esp/esp-idf/components/esp_netif  /home/gustavo/esp/esp-idf/components/esp_phy  /home/gustavo/esp/esp-idf/components/esp_pm  /home/gustavo/esp/esp-idf/components/esp_ringbuf  /home/gustavo/esp/esp-idf/components/esp_rom  /home/gustavo/esp/esp-idf/components/esp_serial_slave_link  /home/gustavo/esp/esp-idf/components/esp_system  /home/gustavo/esp/esp-idf/components/esp_timer  /home/gustavo/esp/esp-idf/components/esp_websocket_client  /home/gustavo/esp/esp-idf/components/esp_wifi  /home/gustavo/esp/esp-idf/components/espcoredump  /home/gustavo/esp/esp-idf/components/esptool_py  /home/gustavo/esp/esp-idf/components/expat  /home/gustavo/esp/esp-idf/components/fatfs  /home/gustavo/esp/esp-idf/components/freemodbus  /home/gustavo/esp/esp-idf/components/freertos  /home/gustavo/esp/esp-idf/components/hal  /home/gustavo/esp/esp-idf/components/heap  /home/gustavo/esp/esp-idf/components/idf_test  /home/gustavo/esp/esp-idf/components/jsmn  /home/gustavo/esp/esp-idf/components/json  /home/gustavo/esp/esp-idf/components/libsodium  /home/gustavo/esp/esp-idf/components/log  /home/gustavo/esp/esp-idf/components/lwip  /home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/main  /home/gustavo/esp/esp-idf/components/mbedtls  /home/gustavo/esp/esp-idf/components/mdns  /home/gustavo/esp/esp-idf/components/mqtt  /home/gustavo/esp/esp-idf/components/newlib  /home/gustavo/esp/esp-idf/components/nghttp  /home/gustavo/esp/esp-idf/components/nvs_flash  /home/gustavo/esp/esp-idf/components/openssl  /home/gustavo/esp/esp-idf/components/openthread  /home/gustavo/esp/esp-idf/components/partition_table  /home/gustavo/esp/esp-idf/components/perfmon  /home/gustavo/esp/esp-idf/components/protobuf-c  /home/gustavo/esp/esp-idf/components/protocomm  /home/gustavo/esp/esp-idf/components/pthread  /home/gustavo/esp/esp-idf/components/sdmmc  /home/gustavo/esp/esp-idf/components/soc  /home/gustavo/esp/esp-idf/components/spi_flash  /home/gustavo/esp/esp-idf/components/spiffs  /home/gustavo/esp/esp-idf/components/tcp_transport  /home/gustavo/esp/esp-idf/components/tcpip_adapter  /home/gustavo/esp/esp-idf/components/ulp  /home/gustavo/esp/esp-idf/components/unity  /home/gustavo/esp/esp-idf/components/vfs  /home/gustavo/esp/esp-idf/components/wear_levelling  /home/gustavo/esp/esp-idf/components/wifi_provisioning  /home/gustavo/esp/esp-idf/components/wpa_supplicant  /home/gustavo/esp/esp-idf/components/xtensa
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LC_TELEPHONE = es_AR.UTF-8
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# makefile (from '/home/gustavo/esp/esp-idf/make/project.mk', line 76)
+OS = 
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-8f6c2e77-1.68.0-main.sock
+# makefile
+MAKEFLAGS = pqrRs
+# environment
+MFLAGS = -pqrRs
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from '/home/gustavo/esp/esp-idf/make/common.mk', line 69)
+resolvepath = $(abspath $(foreach dir,$(1),$(if $(filter /%,$(dir)),$(dir),$(subst //,/,$(2)/$(dir)))))
+# environment
+NVM_DIR = /home/gustavo/.nvm
+# makefile (from '/home/gustavo/esp/esp-idf/make/project.mk', line 89)
+IDF_PATH := /home/gustavo/esp/esp-idf
+# makefile (from '/home/gustavo/esp/esp-idf/make/project_config.mk', line 6)
+COMPONENT_SDKCONFIG_RENAMES := /home/gustavo/esp/esp-idf/components/app_trace/sdkconfig.rename   /home/gustavo/esp/esp-idf/components/bootloader/sdkconfig.rename  /home/gustavo/esp/esp-idf/components/bt/sdkconfig.rename      /home/gustavo/esp/esp-idf/components/driver/sdkconfig.rename   /home/gustavo/esp/esp-idf/components/esp32/sdkconfig.rename        /home/gustavo/esp/esp-idf/components/esp_event/sdkconfig.rename /home/gustavo/esp/esp-idf/components/esp_gdbstub/sdkconfig.rename      /home/gustavo/esp/esp-idf/components/esp_hw_support/sdkconfig.rename     /home/gustavo/esp/esp-idf/components/esp_phy/sdkconfig.rename /home/gustavo/esp/esp-idf/components/esp_pm/sdkconfig.rename    /home/gustavo/esp/esp-idf/components/esp_system/sdkconfig.rename /home/gustavo/esp/esp-idf/components/esp_timer/sdkconfig.rename  /home/gustavo/esp/esp-idf/components/esp_wifi/sdkconfig.rename /home/gustavo/esp/esp-idf/components/espcoredump/sdkconfig.rename /home/gustavo/esp/esp-idf/components/esptool_py/sdkconfig.rename   /home/gustavo/esp/esp-idf/components/freemodbus/sdkconfig.rename /home/gustavo/esp/esp-idf/components/freertos/sdkconfig.rename        /home/gustavo/esp/esp-idf/components/lwip/sdkconfig.rename              /home/gustavo/esp/esp-idf/components/pthread/sdkconfig.rename   /home/gustavo/esp/esp-idf/components/spi_flash/sdkconfig.rename      /home/gustavo/esp/esp-idf/components/vfs/sdkconfig.rename    
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from '/home/gustavo/esp/esp-idf/make/project.mk', line 234)
+OBJDUMP = objdump
+# environment
+GDK_BACKEND = x11
+# makefile (from '/home/gustavo/esp/esp-idf/make/project_config.mk', line 66)
+SDKCONFIG_DEFAULTS_FILES := $(subst ,, )
+# environment
+LC_PAPER = es_AR.UTF-8
+# makefile (from '/home/gustavo/esp/esp-idf/make/project.mk', line 86)
+SANITISED_IDF_PATH := /home/gustavo/esp/esp-idf
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+DEFAULTS_PATH = /usr/share/gconf/ubuntu.default.path
+# default
+MAKEFILES := 
+# environment
+LC_NUMERIC = es_AR.UTF-8
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 6)
+PROJECT_NAME := wifi_station
+# environment
+LC_MEASUREMENT = es_AR.UTF-8
+# makefile (from '/home/gustavo/esp/esp-idf/make/project.mk', line 226)
+TEST_COMPONENT_PATHS := 
+# environment
+LC_ALL = C
+# environment
+DBUS_STARTER_BUS_TYPE = session
+# environment
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/00eaa44b_0f48_4b3f_923b_9b8e0e62154d
+# automatic
+^F = $(notdir $^)
+# makefile (from '/home/gustavo/esp/esp-idf/make/project.mk', line 118)
+MAKEFLAGS_OLD := pqrR
+# makefile (from '/home/gustavo/esp/esp-idf/make/project.mk', line 233)
+OBJCOPY = objcopy
+# makefile (from '/home/gustavo/esp/esp-idf/make/project_config.mk', line 31)
+SDKCONFIG_DEFAULTS = $(PROJECT_PATH)/sdkconfig.defaults
+# environment
+GNOME_TERMINAL_SERVICE = :1.106
+# default
+SUFFIXES := 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# makefile (from '/home/gustavo/esp/esp-idf/make/project.mk', line 129)
+COMMON_MAKEFILES := /home/gustavo/esp/esp-idf/make/project.mk /home/gustavo/esp/esp-idf/make/common.mk /home/gustavo/esp/esp-idf/make/version.mk /home/gustavo/esp/esp-idf/make/component_wrapper.mk /home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/Makefile
+# environment
+WINDOWPATH = 2
+# makefile (from '/home/gustavo/esp/esp-idf/make/project.mk', line 100)
+IDF_TARGET := esp32
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+LC_IDENTIFICATION = es_AR.UTF-8
+# makefile (from '/home/gustavo/esp/esp-idf/make/project.mk', line 214)
+TEST_COMPONENTS = 
+# default
+.RECIPEPREFIX := 
+# makefile (from '/home/gustavo/esp/esp-idf/make/project.mk', line 242)
+HOSTSIZE := size
+# makefile (from '/home/gustavo/esp/esp-idf/make/project_config.mk', line 25)
+SDKCONFIG = $(PROJECT_PATH)/sdkconfig
+# makefile (from '/home/gustavo/esp/esp-idf/make/project_config.mk', line 4)
+COMPONENT_KCONFIGS := /home/gustavo/esp/esp-idf/components/app_trace/Kconfig  /home/gustavo/esp/esp-idf/components/asio/Kconfig   /home/gustavo/esp/esp-idf/components/bt/Kconfig   /home/gustavo/esp/esp-idf/components/coap/Kconfig   /home/gustavo/esp/esp-idf/components/driver/Kconfig /home/gustavo/esp/esp-idf/components/efuse/Kconfig /home/gustavo/esp/esp-idf/components/esp-tls/Kconfig /home/gustavo/esp/esp-idf/components/esp32/Kconfig /home/gustavo/esp/esp-idf/components/esp32c3/Kconfig /home/gustavo/esp/esp-idf/components/esp32h2/Kconfig /home/gustavo/esp/esp-idf/components/esp32s2/Kconfig /home/gustavo/esp/esp-idf/components/esp32s3/Kconfig /home/gustavo/esp/esp-idf/components/esp_adc_cal/Kconfig /home/gustavo/esp/esp-idf/components/esp_common/Kconfig /home/gustavo/esp/esp-idf/components/esp_eth/Kconfig /home/gustavo/esp/esp-idf/components/esp_event/Kconfig /home/gustavo/esp/esp-idf/components/esp_gdbstub/Kconfig  /home/gustavo/esp/esp-idf/components/esp_http_client/Kconfig /home/gustavo/esp/esp-idf/components/esp_http_server/Kconfig /home/gustavo/esp/esp-idf/components/esp_https_ota/Kconfig /home/gustavo/esp/esp-idf/components/esp_https_server/Kconfig /home/gustavo/esp/esp-idf/components/esp_hw_support/Kconfig /home/gustavo/esp/esp-idf/components/esp_ipc/Kconfig /home/gustavo/esp/esp-idf/components/esp_lcd/Kconfig  /home/gustavo/esp/esp-idf/components/esp_netif/Kconfig /home/gustavo/esp/esp-idf/components/esp_phy/Kconfig /home/gustavo/esp/esp-idf/components/esp_pm/Kconfig    /home/gustavo/esp/esp-idf/components/esp_system/Kconfig /home/gustavo/esp/esp-idf/components/esp_timer/Kconfig  /home/gustavo/esp/esp-idf/components/esp_wifi/Kconfig /home/gustavo/esp/esp-idf/components/espcoredump/Kconfig   /home/gustavo/esp/esp-idf/components/fatfs/Kconfig /home/gustavo/esp/esp-idf/components/freemodbus/Kconfig /home/gustavo/esp/esp-idf/components/freertos/Kconfig /home/gustavo/esp/esp-idf/components/hal/Kconfig /home/gustavo/esp/esp-idf/components/heap/Kconfig  /home/gustavo/esp/esp-idf/components/jsmn/Kconfig  /home/gustavo/esp/esp-idf/components/libsodium/Kconfig /home/gustavo/esp/esp-idf/components/log/Kconfig /home/gustavo/esp/esp-idf/components/lwip/Kconfig  /home/gustavo/esp/esp-idf/components/mbedtls/Kconfig /home/gustavo/esp/esp-idf/components/mdns/Kconfig /home/gustavo/esp/esp-idf/components/mqtt/Kconfig /home/gustavo/esp/esp-idf/components/newlib/Kconfig  /home/gustavo/esp/esp-idf/components/nvs_flash/Kconfig /home/gustavo/esp/esp-idf/components/openssl/Kconfig /home/gustavo/esp/esp-idf/components/openthread/Kconfig     /home/gustavo/esp/esp-idf/components/pthread/Kconfig   /home/gustavo/esp/esp-idf/components/spi_flash/Kconfig /home/gustavo/esp/esp-idf/components/spiffs/Kconfig /home/gustavo/esp/esp-idf/components/tcp_transport/Kconfig   /home/gustavo/esp/esp-idf/components/unity/Kconfig /home/gustavo/esp/esp-idf/components/vfs/Kconfig /home/gustavo/esp/esp-idf/components/wear_levelling/Kconfig /home/gustavo/esp/esp-idf/components/wifi_provisioning/Kconfig /home/gustavo/esp/esp-idf/components/wpa_supplicant/Kconfig 
+# environment
+LC_ADDRESS = es_AR.UTF-8
+# makefile (from '/home/gustavo/esp/esp-idf/make/project.mk', line 241)
+HOSTOBJCOPY := objcopy
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# makefile (from '/home/gustavo/esp/esp-idf/make/project_config.mk', line 8)
+COMPONENT_KCONFIGS_PROJBUILD_SOURCE_FILE := /home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/kconfigs_projbuild.in
+# makefile (from '/home/gustavo/esp/esp-idf/make/project.mk', line 187)
+EXCLUDE_COMPONENTS = 
+# environment
+VSCODE_PID = 9266
+# environment
+DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=cb643004ff9bc5963a68117562a89cd9
+# makefile (from '/home/gustavo/esp/esp-idf/make/project_config.mk', line 103)
+MENUCONFIG_STYLE = aquatic
+# variable set hash-table stats:
+# Load=181/1024=18%, Rehash=0, Collisions=137/1108=12%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# /home/gustavo/esp/esp-idf/components (device 2053, inode 1835028): 92 files, no impossibilities.
+# . (device 2053, inode 2384194): 12 files, no impossibilities.
+# /home/gustavo/esp/esp-idf/tools/kconfig (device 2053, inode 6698602): 36 files, no impossibilities.
+# /home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/components: could not be stat'd.
+
+# 140 files, no impossibilities in 4 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/esp32c3/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/vfs/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/home/gustavo/esp/esp-idf/tools/kconfig/mconf-idf: /home/gustavo/esp/esp-idf/tools/kconfig/expand_env.c /home/gustavo/esp/esp-idf/tools/kconfig/confdata.c /home/gustavo/esp/esp-idf/tools/kconfig/gconf.c /home/gustavo/esp/esp-idf/tools/kconfig/conf.c /home/gustavo/esp/esp-idf/tools/kconfig/nconf.c /home/gustavo/esp/esp-idf/tools/kconfig/kxgettext.c /home/gustavo/esp/esp-idf/tools/kconfig/util.c /home/gustavo/esp/esp-idf/tools/kconfig/mconf.c /home/gustavo/esp/esp-idf/tools/kconfig/images.c /home/gustavo/esp/esp-idf/tools/kconfig/menu.c /home/gustavo/esp/esp-idf/tools/kconfig/nconf.gui.c /home/gustavo/esp/esp-idf/tools/kconfig/expr.c /home/gustavo/esp/esp-idf/tools/kconfig/symbol.c /home/gustavo/esp/esp-idf/tools/kconfig/zconf.y /home/gustavo/esp/esp-idf/tools/kconfig/conf-idf
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := /home/gustavo/esp/esp-idf/tools/kconfig/mconf-idf
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := /home/gustavo/esp/esp-idf/tools/kconfig/expand_env.c /home/gustavo/esp/esp-idf/tools/kconfig/confdata.c /home/gustavo/esp/esp-idf/tools/kconfig/gconf.c /home/gustavo/esp/esp-idf/tools/kconfig/conf.c /home/gustavo/esp/esp-idf/tools/kconfig/nconf.c /home/gustavo/esp/esp-idf/tools/kconfig/kxgettext.c /home/gustavo/esp/esp-idf/tools/kconfig/util.c /home/gustavo/esp/esp-idf/tools/kconfig/mconf.c /home/gustavo/esp/esp-idf/tools/kconfig/images.c /home/gustavo/esp/esp-idf/tools/kconfig/menu.c /home/gustavo/esp/esp-idf/tools/kconfig/nconf.gui.c /home/gustavo/esp/esp-idf/tools/kconfig/expr.c /home/gustavo/esp/esp-idf/tools/kconfig/symbol.c /home/gustavo/esp/esp-idf/tools/kconfig/zconf.y /home/gustavo/esp/esp-idf/tools/kconfig/conf-idf
+# automatic
+# | := 
+# automatic
+# < := /home/gustavo/esp/esp-idf/tools/kconfig/expand_env.c
+# automatic
+# ^ := /home/gustavo/esp/esp-idf/tools/kconfig/expand_env.c /home/gustavo/esp/esp-idf/tools/kconfig/confdata.c /home/gustavo/esp/esp-idf/tools/kconfig/gconf.c /home/gustavo/esp/esp-idf/tools/kconfig/conf.c /home/gustavo/esp/esp-idf/tools/kconfig/nconf.c /home/gustavo/esp/esp-idf/tools/kconfig/kxgettext.c /home/gustavo/esp/esp-idf/tools/kconfig/util.c /home/gustavo/esp/esp-idf/tools/kconfig/mconf.c /home/gustavo/esp/esp-idf/tools/kconfig/images.c /home/gustavo/esp/esp-idf/tools/kconfig/menu.c /home/gustavo/esp/esp-idf/tools/kconfig/nconf.gui.c /home/gustavo/esp/esp-idf/tools/kconfig/expr.c /home/gustavo/esp/esp-idf/tools/kconfig/symbol.c /home/gustavo/esp/esp-idf/tools/kconfig/zconf.y /home/gustavo/esp/esp-idf/tools/kconfig/conf-idf
+# automatic
+# ? := /home/gustavo/esp/esp-idf/tools/kconfig/expand_env.c /home/gustavo/esp/esp-idf/tools/kconfig/confdata.c /home/gustavo/esp/esp-idf/tools/kconfig/gconf.c /home/gustavo/esp/esp-idf/tools/kconfig/conf.c /home/gustavo/esp/esp-idf/tools/kconfig/nconf.c /home/gustavo/esp/esp-idf/tools/kconfig/kxgettext.c /home/gustavo/esp/esp-idf/tools/kconfig/util.c /home/gustavo/esp/esp-idf/tools/kconfig/mconf.c /home/gustavo/esp/esp-idf/tools/kconfig/images.c /home/gustavo/esp/esp-idf/tools/kconfig/menu.c /home/gustavo/esp/esp-idf/tools/kconfig/nconf.gui.c /home/gustavo/esp/esp-idf/tools/kconfig/expr.c /home/gustavo/esp/esp-idf/tools/kconfig/symbol.c /home/gustavo/esp/esp-idf/tools/kconfig/zconf.y /home/gustavo/esp/esp-idf/tools/kconfig/conf-idf
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/16=6%
+#  recipe to execute (from '/home/gustavo/esp/esp-idf/make/project_config.mk', line 43):
+	@echo "mconf-idf is not required on this platform"
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/esp_http_client/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/tools/kconfig/confdata.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-14 17:39:09.295694562
+#  File has been updated.
+#  Successfully updated.
+
+config-clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/gustavo/esp/esp-idf/make/project_config.mk', line 177):
+	$(summary) RM CONFIG
+	rm -rf $(BUILD_DIR_BASE)/include/config $(BUILD_DIR_BASE)/include/sdkconfig.h \
+		$(COMPONENT_KCONFIGS_SOURCE_FILE) $(COMPONENT_KCONFIGS_PROJBUILD_SOURCE_FILE)
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/esp32/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/nvs_flash/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/wpa_supplicant/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/esp_phy/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/mbedtls/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/main/Kconfig.projbuild:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/wifi_provisioning/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/efuse/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/pthread/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/esp_https_server/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/tools/kconfig/menu.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-14 17:39:09.307694647
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/tools/kconfig/images.c:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2022-05-14 17:39:09.29969459
+#  File has been updated.
+#  Successfully updated.
+
+all: all_binaries | check_python_dependencies
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/esp_https_ota/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: build-components menuconfig defconfig all build clean all_binaries check-submodules size size-components size-files size-symbols list-components check_python_dependencies term_check config-clean defconfig menuconfig
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all_binaries:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/mdns/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/make/project.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-14 17:39:09.107693202
+#  File has been updated.
+#  Successfully updated.
+
+prepare_kconfig_files:
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := prepare_kconfig_files
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=5/22=23%
+#  recipe to execute (from '/home/gustavo/esp/esp-idf/make/project_config.mk', line 75):
+	mkdir -p $(BUILD_DIR_BASE)
+	$(PYTHON) $(IDF_PATH)/tools/kconfig_new/prepare_kconfig_files.py \
+		--env "COMPONENT_KCONFIGS=$(strip $(COMPONENT_KCONFIGS))" \
+		--env "COMPONENT_KCONFIGS_PROJBUILD=$(strip $(COMPONENT_KCONFIGS_PROJBUILD))" \
+		--env "COMPONENT_KCONFIGS_SOURCE_FILE=$(COMPONENT_KCONFIGS_SOURCE_FILE)" \
+		--env "COMPONENT_KCONFIGS_PROJBUILD_SOURCE_FILE=$(COMPONENT_KCONFIGS_PROJBUILD_SOURCE_FILE)"
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/esp_http_server/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/esp_wifi/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+list-components:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/include/sdkconfig.h: /home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/sdkconfig /home/gustavo/esp/esp-idf/components/app_trace/Kconfig /home/gustavo/esp/esp-idf/components/asio/Kconfig /home/gustavo/esp/esp-idf/components/bt/Kconfig /home/gustavo/esp/esp-idf/components/coap/Kconfig /home/gustavo/esp/esp-idf/components/driver/Kconfig /home/gustavo/esp/esp-idf/components/efuse/Kconfig /home/gustavo/esp/esp-idf/components/esp-tls/Kconfig /home/gustavo/esp/esp-idf/components/esp32/Kconfig /home/gustavo/esp/esp-idf/components/esp32c3/Kconfig /home/gustavo/esp/esp-idf/components/esp32h2/Kconfig /home/gustavo/esp/esp-idf/components/esp32s2/Kconfig /home/gustavo/esp/esp-idf/components/esp32s3/Kconfig /home/gustavo/esp/esp-idf/components/esp_adc_cal/Kconfig /home/gustavo/esp/esp-idf/components/esp_common/Kconfig /home/gustavo/esp/esp-idf/components/esp_eth/Kconfig /home/gustavo/esp/esp-idf/components/esp_event/Kconfig /home/gustavo/esp/esp-idf/components/esp_gdbstub/Kconfig /home/gustavo/esp/esp-idf/components/esp_http_client/Kconfig /home/gustavo/esp/esp-idf/components/esp_http_server/Kconfig /home/gustavo/esp/esp-idf/components/esp_https_ota/Kconfig /home/gustavo/esp/esp-idf/components/esp_https_server/Kconfig /home/gustavo/esp/esp-idf/components/esp_hw_support/Kconfig /home/gustavo/esp/esp-idf/components/esp_ipc/Kconfig /home/gustavo/esp/esp-idf/components/esp_lcd/Kconfig /home/gustavo/esp/esp-idf/components/esp_netif/Kconfig /home/gustavo/esp/esp-idf/components/esp_phy/Kconfig /home/gustavo/esp/esp-idf/components/esp_pm/Kconfig /home/gustavo/esp/esp-idf/components/esp_system/Kconfig /home/gustavo/esp/esp-idf/components/esp_timer/Kconfig /home/gustavo/esp/esp-idf/components/esp_wifi/Kconfig /home/gustavo/esp/esp-idf/components/espcoredump/Kconfig /home/gustavo/esp/esp-idf/components/fatfs/Kconfig /home/gustavo/esp/esp-idf/components/freemodbus/Kconfig /home/gustavo/esp/esp-idf/components/freertos/Kconfig /home/gustavo/esp/esp-idf/components/hal/Kconfig /home/gustavo/esp/esp-idf/components/heap/Kconfig /home/gustavo/esp/esp-idf/components/jsmn/Kconfig /home/gustavo/esp/esp-idf/components/libsodium/Kconfig /home/gustavo/esp/esp-idf/components/log/Kconfig /home/gustavo/esp/esp-idf/components/lwip/Kconfig /home/gustavo/esp/esp-idf/components/mbedtls/Kconfig /home/gustavo/esp/esp-idf/components/mdns/Kconfig /home/gustavo/esp/esp-idf/components/mqtt/Kconfig /home/gustavo/esp/esp-idf/components/newlib/Kconfig /home/gustavo/esp/esp-idf/components/nvs_flash/Kconfig /home/gustavo/esp/esp-idf/components/openssl/Kconfig /home/gustavo/esp/esp-idf/components/openthread/Kconfig /home/gustavo/esp/esp-idf/components/pthread/Kconfig /home/gustavo/esp/esp-idf/components/spi_flash/Kconfig /home/gustavo/esp/esp-idf/components/spiffs/Kconfig /home/gustavo/esp/esp-idf/components/tcp_transport/Kconfig /home/gustavo/esp/esp-idf/components/unity/Kconfig /home/gustavo/esp/esp-idf/components/vfs/Kconfig /home/gustavo/esp/esp-idf/components/wear_levelling/Kconfig /home/gustavo/esp/esp-idf/components/wifi_provisioning/Kconfig /home/gustavo/esp/esp-idf/components/wpa_supplicant/Kconfig /home/gustavo/esp/esp-idf/components/app_update/Kconfig.projbuild /home/gustavo/esp/esp-idf/components/bootloader/Kconfig.projbuild /home/gustavo/esp/esp-idf/components/esp_rom/Kconfig.projbuild /home/gustavo/esp/esp-idf/components/esptool_py/Kconfig.projbuild /home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/main/Kconfig.projbuild /home/gustavo/esp/esp-idf/components/partition_table/Kconfig.projbuild | check_python_dependencies prepare_kconfig_files
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from '/home/gustavo/esp/esp-idf/make/project_config.mk', line 165):
+	$(summary) GENCONFIG
+	$(call RunConfGen,)
+	touch $(SDKCONFIG_MAKEFILE) $(BUILD_DIR_BASE)/include/sdkconfig.h  # ensure newer than sdkconfig
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/esp_timer/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/partition_table/Kconfig.projbuild:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-02 21:09:57
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/coap/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/fatfs/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/build/include/config/auto.conf: /home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/sdkconfig /home/gustavo/esp/esp-idf/components/app_trace/Kconfig /home/gustavo/esp/esp-idf/components/asio/Kconfig /home/gustavo/esp/esp-idf/components/bt/Kconfig /home/gustavo/esp/esp-idf/components/coap/Kconfig /home/gustavo/esp/esp-idf/components/driver/Kconfig /home/gustavo/esp/esp-idf/components/efuse/Kconfig /home/gustavo/esp/esp-idf/components/esp-tls/Kconfig /home/gustavo/esp/esp-idf/components/esp32/Kconfig /home/gustavo/esp/esp-idf/components/esp32c3/Kconfig /home/gustavo/esp/esp-idf/components/esp32h2/Kconfig /home/gustavo/esp/esp-idf/components/esp32s2/Kconfig /home/gustavo/esp/esp-idf/components/esp32s3/Kconfig /home/gustavo/esp/esp-idf/components/esp_adc_cal/Kconfig /home/gustavo/esp/esp-idf/components/esp_common/Kconfig /home/gustavo/esp/esp-idf/components/esp_eth/Kconfig /home/gustavo/esp/esp-idf/components/esp_event/Kconfig /home/gustavo/esp/esp-idf/components/esp_gdbstub/Kconfig /home/gustavo/esp/esp-idf/components/esp_http_client/Kconfig /home/gustavo/esp/esp-idf/components/esp_http_server/Kconfig /home/gustavo/esp/esp-idf/components/esp_https_ota/Kconfig /home/gustavo/esp/esp-idf/components/esp_https_server/Kconfig /home/gustavo/esp/esp-idf/components/esp_hw_support/Kconfig /home/gustavo/esp/esp-idf/components/esp_ipc/Kconfig /home/gustavo/esp/esp-idf/components/esp_lcd/Kconfig /home/gustavo/esp/esp-idf/components/esp_netif/Kconfig /home/gustavo/esp/esp-idf/components/esp_phy/Kconfig /home/gustavo/esp/esp-idf/components/esp_pm/Kconfig /home/gustavo/esp/esp-idf/components/esp_system/Kconfig /home/gustavo/esp/esp-idf/components/esp_timer/Kconfig /home/gustavo/esp/esp-idf/components/esp_wifi/Kconfig /home/gustavo/esp/esp-idf/components/espcoredump/Kconfig /home/gustavo/esp/esp-idf/components/fatfs/Kconfig /home/gustavo/esp/esp-idf/components/freemodbus/Kconfig /home/gustavo/esp/esp-idf/components/freertos/Kconfig /home/gustavo/esp/esp-idf/components/hal/Kconfig /home/gustavo/esp/esp-idf/components/heap/Kconfig /home/gustavo/esp/esp-idf/components/jsmn/Kconfig /home/gustavo/esp/esp-idf/components/libsodium/Kconfig /home/gustavo/esp/esp-idf/components/log/Kconfig /home/gustavo/esp/esp-idf/components/lwip/Kconfig /home/gustavo/esp/esp-idf/components/mbedtls/Kconfig /home/gustavo/esp/esp-idf/components/mdns/Kconfig /home/gustavo/esp/esp-idf/components/mqtt/Kconfig /home/gustavo/esp/esp-idf/components/newlib/Kconfig /home/gustavo/esp/esp-idf/components/nvs_flash/Kconfig /home/gustavo/esp/esp-idf/components/openssl/Kconfig /home/gustavo/esp/esp-idf/components/openthread/Kconfig /home/gustavo/esp/esp-idf/components/pthread/Kconfig /home/gustavo/esp/esp-idf/components/spi_flash/Kconfig /home/gustavo/esp/esp-idf/components/spiffs/Kconfig /home/gustavo/esp/esp-idf/components/tcp_transport/Kconfig /home/gustavo/esp/esp-idf/components/unity/Kconfig /home/gustavo/esp/esp-idf/components/vfs/Kconfig /home/gustavo/esp/esp-idf/components/wear_levelling/Kconfig /home/gustavo/esp/esp-idf/components/wifi_provisioning/Kconfig /home/gustavo/esp/esp-idf/components/wpa_supplicant/Kconfig /home/gustavo/esp/esp-idf/components/app_update/Kconfig.projbuild /home/gustavo/esp/esp-idf/components/bootloader/Kconfig.projbuild /home/gustavo/esp/esp-idf/components/esp_rom/Kconfig.projbuild /home/gustavo/esp/esp-idf/components/esptool_py/Kconfig.projbuild /home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/main/Kconfig.projbuild /home/gustavo/esp/esp-idf/components/partition_table/Kconfig.projbuild | check_python_dependencies prepare_kconfig_files
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/141=0%
+#  recipe to execute (from '/home/gustavo/esp/esp-idf/make/project_config.mk', line 165):
+	$(summary) GENCONFIG
+	$(call RunConfGen,)
+	touch $(SDKCONFIG_MAKEFILE) $(BUILD_DIR_BASE)/include/sdkconfig.h  # ensure newer than sdkconfig
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/bt/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+check-submodules:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+defconfig: | check_python_dependencies prepare_kconfig_files
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := defconfig
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := check_python_dependencies prepare_kconfig_files
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=9/40=22%
+#  recipe to execute (from '/home/gustavo/esp/esp-idf/make/project_config.mk', line 159):
+	$(summary) DEFCONFIG
+	$(call RunConfGen,)
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/esp32s3/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/esp_eth/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/tools/kconfig/kxgettext.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-14 17:39:09.29969459
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/esp_lcd/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+check_python_dependencies:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := check_python_dependencies
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+ 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/14=14%
+#  recipe to execute (from '/home/gustavo/esp/esp-idf/make/project.mk', line 252):
+	$(PYTHON) $(IDF_PATH)/tools/check_python_dependencies.py
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/driver/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/esp_adc_cal/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/mqtt/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+size-files:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/make/common.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-14 17:39:09.103693174
+#  File has been updated.
+#  Successfully updated.
+
+size:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/jsmn/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/esp_gdbstub/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/esp_ipc/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/make/version.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-14 17:39:09.107693202
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/tools/kconfig/nconf.gui.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-14 17:39:09.307694647
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/esp_pm/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+help:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from '/home/gustavo/esp/esp-idf/make/project.mk', line 25):
+	@echo "Welcome to Espressif IDF build system. Some useful make targets:"
+	@echo ""
+	@echo "make menuconfig - Configure IDF project"
+	@echo "make defconfig - Set defaults for all new configuration options"
+	@echo ""
+	@echo "make all - Build app, bootloader, partition table"
+	@echo "make flash - Flash app, bootloader, partition table to a chip"
+	@echo "make clean - Remove all build output"
+	@echo "make size - Display the static memory footprint of the app"
+	@echo "make size-components, size-files - Finer-grained memory footprints"
+	@echo "make size-symbols - Per symbol memory footprint. Requires COMPONENT=<component>"
+	@echo "make erase_flash - Erase entire flash contents"
+	@echo "make erase_otadata - Erase ota_data partition; First bootable partition (factory or OTAx) will be used on next boot."
+	@echo "                     This assumes this project's partition table is the one flashed on the device."
+	@echo "make monitor - Run idf_monitor tool to monitor serial output from app"
+	@echo "make simple_monitor - Monitor serial output on terminal console"
+	@echo "make list-components - List all components in the project"
+	@echo ""
+	@echo "make app - Build just the app"
+	@echo "make app-flash - Flash just the app"
+	@echo "make app-clean - Clean just the app"
+	@echo "make print_flash_cmd - Print the arguments for esptool when flash"
+	@echo "make check_python_dependencies - Check that the required python packages are installed"
+	@echo ""
+	@echo "See also 'make bootloader', 'make bootloader-flash', 'make bootloader-clean', "
+	@echo "'make partition_table', etc, etc."
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/log/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/esp_rom/Kconfig.projbuild:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/tools/kconfig/conf.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-14 17:39:09.295694562
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/esp_hw_support/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/esp-tls/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/tools/kconfig/expr.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-14 17:39:09.295694562
+#  File has been updated.
+#  Successfully updated.
+
+/home/gustavo/esp/esp-idf/tools/kconfig/conf-idf: /home/gustavo/esp/esp-idf/tools/kconfig/expand_env.c /home/gustavo/esp/esp-idf/tools/kconfig/confdata.c /home/gustavo/esp/esp-idf/tools/kconfig/gconf.c /home/gustavo/esp/esp-idf/tools/kconfig/conf.c /home/gustavo/esp/esp-idf/tools/kconfig/nconf.c /home/gustavo/esp/esp-idf/tools/kconfig/kxgettext.c /home/gustavo/esp/esp-idf/tools/kconfig/util.c /home/gustavo/esp/esp-idf/tools/kconfig/mconf.c /home/gustavo/esp/esp-idf/tools/kconfig/images.c /home/gustavo/esp/esp-idf/tools/kconfig/menu.c /home/gustavo/esp/esp-idf/tools/kconfig/nconf.gui.c /home/gustavo/esp/esp-idf/tools/kconfig/expr.c /home/gustavo/esp/esp-idf/tools/kconfig/symbol.c /home/gustavo/esp/esp-idf/tools/kconfig/zconf.y
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := /home/gustavo/esp/esp-idf/tools/kconfig/conf-idf
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := /home/gustavo/esp/esp-idf/tools/kconfig/expand_env.c /home/gustavo/esp/esp-idf/tools/kconfig/confdata.c /home/gustavo/esp/esp-idf/tools/kconfig/gconf.c /home/gustavo/esp/esp-idf/tools/kconfig/conf.c /home/gustavo/esp/esp-idf/tools/kconfig/nconf.c /home/gustavo/esp/esp-idf/tools/kconfig/kxgettext.c /home/gustavo/esp/esp-idf/tools/kconfig/util.c /home/gustavo/esp/esp-idf/tools/kconfig/mconf.c /home/gustavo/esp/esp-idf/tools/kconfig/images.c /home/gustavo/esp/esp-idf/tools/kconfig/menu.c /home/gustavo/esp/esp-idf/tools/kconfig/nconf.gui.c /home/gustavo/esp/esp-idf/tools/kconfig/expr.c /home/gustavo/esp/esp-idf/tools/kconfig/symbol.c /home/gustavo/esp/esp-idf/tools/kconfig/zconf.y
+# automatic
+# | := 
+# automatic
+# < := /home/gustavo/esp/esp-idf/tools/kconfig/expand_env.c
+# automatic
+# ^ := /home/gustavo/esp/esp-idf/tools/kconfig/expand_env.c /home/gustavo/esp/esp-idf/tools/kconfig/confdata.c /home/gustavo/esp/esp-idf/tools/kconfig/gconf.c /home/gustavo/esp/esp-idf/tools/kconfig/conf.c /home/gustavo/esp/esp-idf/tools/kconfig/nconf.c /home/gustavo/esp/esp-idf/tools/kconfig/kxgettext.c /home/gustavo/esp/esp-idf/tools/kconfig/util.c /home/gustavo/esp/esp-idf/tools/kconfig/mconf.c /home/gustavo/esp/esp-idf/tools/kconfig/images.c /home/gustavo/esp/esp-idf/tools/kconfig/menu.c /home/gustavo/esp/esp-idf/tools/kconfig/nconf.gui.c /home/gustavo/esp/esp-idf/tools/kconfig/expr.c /home/gustavo/esp/esp-idf/tools/kconfig/symbol.c /home/gustavo/esp/esp-idf/tools/kconfig/zconf.y
+# automatic
+# ? := /home/gustavo/esp/esp-idf/tools/kconfig/expand_env.c /home/gustavo/esp/esp-idf/tools/kconfig/confdata.c /home/gustavo/esp/esp-idf/tools/kconfig/gconf.c /home/gustavo/esp/esp-idf/tools/kconfig/conf.c /home/gustavo/esp/esp-idf/tools/kconfig/nconf.c /home/gustavo/esp/esp-idf/tools/kconfig/kxgettext.c /home/gustavo/esp/esp-idf/tools/kconfig/util.c /home/gustavo/esp/esp-idf/tools/kconfig/mconf.c /home/gustavo/esp/esp-idf/tools/kconfig/images.c /home/gustavo/esp/esp-idf/tools/kconfig/menu.c /home/gustavo/esp/esp-idf/tools/kconfig/nconf.gui.c /home/gustavo/esp/esp-idf/tools/kconfig/expr.c /home/gustavo/esp/esp-idf/tools/kconfig/symbol.c /home/gustavo/esp/esp-idf/tools/kconfig/zconf.y
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/12=8%
+#  recipe to execute (from '/home/gustavo/esp/esp-idf/make/project_config.mk', line 43):
+	@echo "mconf-idf is not required on this platform"
+
+# Not a target:
+/home/gustavo/esp/esp-idf/tools/kconfig/symbol.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-14 17:39:09.311694677
+#  File has been updated.
+#  Successfully updated.
+
+size-symbols:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/tools/kconfig/util.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-14 17:39:09.315694706
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/esp_netif/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/hal/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/esp_system/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/newlib/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/openthread/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/home/gustavo/Documents/UBA/DesarrolloDeAplicacionesParaIOT/TP/other/DAIoT_2022-Sensor_2/sdkconfig: menuconfig
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/141=0%
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/espcoredump/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+term_check:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := term_check
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/14=14%
+#  recipe to execute (from '/home/gustavo/esp/esp-idf/make/project_config.mk', line 114):
+	${PYTHON} ${IDF_PATH}/tools/check_term.py
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/esp_event/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/tcp_transport/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/freertos/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ 
+/home/gustavo/esp/esp-idf/components/lwip/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/unity/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/esp_common/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/spi_flash/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/app_update/Kconfig.projbuild:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/tools/kconfig/zconf.y:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-14 17:39:09.315694706
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/freemodbus/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/libsodium/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/tools/kconfig/gconf.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-14 17:39:09.29969459
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/spiffs/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+menuconfig: /home/gustavo/esp/esp-idf/tools/kconfig/mconf-idf defconfig | check_python_dependencies term_check prepare_kconfig_files
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := menuconfig
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := /home/gustavo/esp/esp-idf/tools/kconfig/mconf-idf defconfig
+# automatic
+# | := check_python_dependencies term_check prepare_kconfig_files
+# automatic
+# < := /home/gustavo/esp/esp-idf/tools/kconfig/mconf-idf
+# automatic
+# ^ := /home/gustavo/esp/esp-idf/tools/kconfig/mconf-idf defconfig
+# automatic
+# ? := /home/gustavo/esp/esp-idf/tools/kconfig/mconf-idf defconfig
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=20/149=13%
+#  recipe to execute (from '/home/gustavo/esp/esp-idf/make/project_config.mk', line 142):
+	$(summary) MENUCONFIG
+	$(call RunConfGen,--dont-write-deprecated)
+	# RunConfGen before menuconfig ensures that deprecated options won't be ignored (they've got renamed)
+	$(call RunMenuConf)
+	# RunConfGen after menuconfig ensures that deprecated options are appended to $(SDKCONFIG) for backward compatibility
+	$(call RunConfGen,)
+
+# Not a target:
+/home/gustavo/esp/esp-idf/tools/kconfig/expand_env.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-14 17:39:09.295694562
+#  File has been updated.
+#  Successfully updated.
+
+build-components:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/esp32s2/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/heap/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/wear_levelling/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/app_trace/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/make/project_config.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-14 17:39:09.107693202
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/bootloader/Kconfig.projbuild:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+size-components:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/asio/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/esp32h2/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/esptool_py/Kconfig.projbuild:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/components/openssl/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/tools/kconfig/mconf.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-14 17:39:09.307694647
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/gustavo/esp/esp-idf/tools/kconfig/nconf.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-14 17:39:09.307694647
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=107/1024=10%, Rehash=0, Collisions=26/251=10%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 243 / storage = 6463 B / avg = 26 B
+# current buf: size = 8162 B / used = 6463 B / count = 243 / avg = 26 B
+
+# strcache performance: lookups = 315 / hit rate = 22%
+# hash-table stats:
+# Load=243/8192=3%, Rehash=0, Collisions=11/315=3%
+# Finished Make data base on Tue Jun 14 12:18:10 2022
+
+ 
